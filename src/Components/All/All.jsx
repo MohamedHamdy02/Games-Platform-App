@@ -23,8 +23,8 @@ export default function All() {
     axios.request(options).then(function (response) {
       setAllGames(response.data);
     })
-  }
-
+  };
+  
   useEffect(() => {
     fetch()
   }, [])

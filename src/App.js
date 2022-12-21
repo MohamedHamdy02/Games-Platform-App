@@ -49,153 +49,153 @@ function App() {
         {
           index: true,
           element: (
-            <ProtectedRoute>
-              <Home />
-            </ProtectedRoute>
+            <Home />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "all",
           element: (
-            <ProtectedRoute>
-              <All />
-            </ProtectedRoute>
+            <All />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "pc",
           element: (
-            <ProtectedRoute>
-              <Pc />
-            </ProtectedRoute>
+            <Pc />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "browser",
           element: (
-            <ProtectedRoute>
-              <Browser />{" "}
-            </ProtectedRoute>
+            <Browser />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "releaseDate",
           element: (
-            <ProtectedRoute>
-              <ReleaseDate />{" "}
-            </ProtectedRoute>
+            <ReleaseDate />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "popularity",
           element: (
-            <ProtectedRoute>
-              <Popularity />
-            </ProtectedRoute>
+            <Popularity />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "alphabetical",
           element: (
-            <ProtectedRoute>
-              <Alphabetical />
-            </ProtectedRoute>
+            <Alphabetical />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "relevance",
           element: (
-            <ProtectedRoute>
-              <Relevance />
-            </ProtectedRoute>
+            <Relevance />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "action",
           element: (
-            <ProtectedRoute>
-              <Action />
-            </ProtectedRoute>
+            <Action />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "actionRpg",
           element: (
-            <ProtectedRoute>
-              <ActionRpg />
-            </ProtectedRoute>
+            <ActionRpg />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "battleRoyale",
           element: (
-            <ProtectedRoute>
-              <BattleRoyale />
-            </ProtectedRoute>
+            <BattleRoyale />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "fantasy",
           element: (
-            <ProtectedRoute>
-              <Fantasy />
-            </ProtectedRoute>
+            <Fantasy />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "flight",
           element: (
-            <ProtectedRoute>
-              <Flight />
-            </ProtectedRoute>
+            <Flight />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "openWorld",
           element: (
-            <ProtectedRoute>
-              <OpenWorld />
-            </ProtectedRoute>
+            <OpenWorld />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "racing",
           element: (
-            <ProtectedRoute>
-              <Racing />{" "}
-            </ProtectedRoute>
+            <Racing />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "shooter",
           element: (
-            <ProtectedRoute>
-              <Shooter />
-            </ProtectedRoute>
+            <Shooter />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "social",
           element: (
-            <ProtectedRoute>
-              <Social />{" "}
-            </ProtectedRoute>
+            <Social />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "sports",
           element: (
-            <ProtectedRoute>
-              <Sports />
-            </ProtectedRoute>
+            <Sports />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
           path: "zombie",
           element: (
-            <ProtectedRoute>
-              <Zombie />
-            </ProtectedRoute>
+            <Zombie />
+            // <ProtectedRoute>
+            // </ProtectedRoute>
           ),
         },
         {
