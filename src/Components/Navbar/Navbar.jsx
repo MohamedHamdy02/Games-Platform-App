@@ -195,7 +195,7 @@ export default function Navbar({ userData, logOut }) {
                 </>
               )} */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item mx-2">
+              <li className="nav-item m-2">
                 <button className="btn btn-info" onClick={logOut}>Log Out</button>
               </li>
               <Link to="/register">
@@ -204,7 +204,7 @@ export default function Navbar({ userData, logOut }) {
                 </li>
               </Link>
               <Link to="/login">
-                <li className="nav-item m-2 mb-3">
+                <li className="nav-item m-2">
                   <button className="btn btn-info">Login</button>
                 </li>
               </Link>
