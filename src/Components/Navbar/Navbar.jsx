@@ -199,12 +199,12 @@ export default function Navbar({ userData, logOut }) {
                 <button className="btn btn-info" onClick={logOut}>Log Out</button>
               </li>
               <Link to="/register">
-                <li className="nav-item mx-2">
+                <li className="nav-item m-2">
                   <button className="btn btn-info">Register</button>
                 </li>
               </Link>
               <Link to="/login">
-                <li className="nav-item mx-2 mb-3">
+                <li className="nav-item m-2 mb-3">
                   <button className="btn btn-info">Login</button>
                 </li>
               </Link>
